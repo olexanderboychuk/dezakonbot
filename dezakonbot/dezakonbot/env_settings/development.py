@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bot',
     'zakon',
+    'django_extensions'
 ]
 
 MIDDLEWARE = [

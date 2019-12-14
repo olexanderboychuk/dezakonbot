@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup
 
 from zakon.api import ZakonApi
-from .models import AcceptedZakonModel, RegisteredZakonModel
-from .zakon_objects import AcceptedZakon, RegisteredZakon
+from zakon.models import AcceptedZakonModel, RegisteredZakonModel
+from zakon.zakon_objects import AcceptedZakon, RegisteredZakon
 
 
 class ZakonParser:
